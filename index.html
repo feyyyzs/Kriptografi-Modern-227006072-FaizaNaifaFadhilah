@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rives Code 4 Encryption/Decryption</title>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h2>Kriptografi Modern Rives Code 4 Enkripsi/Dekripsi</h2>
+
+      <label for="inputText">Masukkan Teks:</label><br />
+      <textarea id="inputText" rows="4" cols="50"></textarea><br />
+
+      <label for="key">Kunci:</label><br />
+      <textarea type="int" id="key" cols="30" rows="1"></textarea><br />
+
+      <button onclick="encrypt()">Enkripsi</button>
+      <button onclick="decrypt()">Dekripsi</button><br />
+
+      <label for="outputText">Hasil:</label><br />
+      <textarea id="outputText" rows="4" cols="50"></textarea>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
